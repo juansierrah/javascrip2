@@ -43,3 +43,49 @@ console.log("----------Ciclos----------------")
 for(let i = 0; i < 10; i++){
     console.log(i);
 }
+console.log("----------while----------------")
+//while
+let contador = 0
+while(contador < 5){
+    console.log(contador);
+    ++contador;
+}
+
+// impimir todos los numero pares del 1 al 100
+ for(let i = 0; i<=100; i++){
+    if(i%2==0){
+        console.log(i);
+    }
+
+ }
+
+ console.log("-----------arreglos---------")
+
+ let numeros = [];
+
+ console.log("numeros->", numeros);
+
+ numeros.push(10);
+ numeros.push(20);
+ numeros.push(30);
+
+ console.log("numeros>-", numeros)
+ //quitar el ultimo elemneto
+ //numeros.pop();
+ console.log("numeros>--", numeros);
+
+ let frutas = ["manzana", "melon","piña"];
+ console.log(frutas);
+
+ // ejercicio
+ nuevoarreglo = [];
+ for(let i = 0; i < numeros.length; i++){
+    if(numeros[i] != 20){
+        nuevoarreglo.push(numeros[i]);
+        
+        
+    }
+
+ }
+console.log("nuevo arreglo" , nuevoarreglo)
+console.log(numeros[numeros.length-1])
